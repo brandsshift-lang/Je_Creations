@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>J.E. Creations — Premium Catering | Where Food Meets Creativity</title>
+  <meta name="description" content="J.E. Creations delivers luxury catering, personal chef services, and custom menu experiences. Premium food, signature seasonings, and branded apparel.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/logo.webp" type="image/webp">
+</head>
+<body>
+
+  <!-- ====== HEADER ====== -->
+  <header class="header transparent" id="header">
+    <div class="container">
+      <a href="#" class="header-logo" id="header-logo">
+        <img src="images/logo.webp" alt="J.E. Creations Logo">
+      </a>
+
+      <div class="mobile-toggle" id="mobile-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </div>
+
+      <div class="mobile-overlay" id="mobile-overlay"></div>
+
+      <div class="header-nav-wrapper" id="nav-wrapper">
+        <nav class="header-nav" id="main-nav">
+          <a href="#hero">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#gallery">Menu</a>
+          <a href="#seasoning">Seasoning</a>
+          <a href="#apparel">Apparel</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="header-cta">
+          <a href="#book" class="btn btn-primary" id="header-book-btn">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ====== HERO ====== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="images/hero-bg.png" alt="Luxury dining experience" loading="eager">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+        Premium Catering Experience
+      </div>
+      <h1 class="hero-title">
+        Where <span>Food</span> Meets<br><em>Creativity</em>
+      </h1>
+      <p class="hero-sub">
+        Elevating every occasion with chef-crafted cuisine, bespoke menus, and an unforgettable dining experience tailored to your vision.
+      </p>
+      <div class="hero-buttons">
+        <a href="#gallery" class="btn btn-primary" id="hero-menu-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3h18v18H3zM3 9h18M9 21V9"></path></svg>
+          Explore Menu
+        </a>
+        <a href="#book" class="btn btn-outline" id="hero-book-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><line x1="20" y1="8" x2="20" y2="14"></line><line x1="23" y1="11" x2="17" y2="11"></line></svg>
+          Book a Chef
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="line"></div>
+    </div>
+  </section>
+
+  <!-- ====== ABOUT / BRAND INTRO ====== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image reveal-left">
+          <div class="accent-border"></div>
+          <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=700&h=900&fit=crop" alt="Executive Chef at J.E. Creations">
+          <div class="accent-border-bottom"></div>
+        </div>
+        <div class="about-text reveal-right">
+          <span class="section-label">Our Story</span>
+          <h2 class="section-title">Crafted With <span>Passion,</span><br>Served With Pride</h2>
+          <hr class="gold-divider">
+          <p>
+            Born from a love of bold flavors and creative plating, J.E. Creations has grown from a mobile food truck dream into a full-service luxury catering brand. Every dish tells a story — blending cultural roots with modern culinary artistry.
+          </p>
+          <p>
+            Our mission is simple: deliver extraordinary food experiences that leave lasting impressions. From intimate dinners to grand events, we bring the heat, the flavor, and the creativity.
+          </p>
+          <div class="about-highlights">
+            <div class="about-highlight">
+              <div class="number">500+</div>
+              <div class="label">Events Served</div>
+            </div>
+            <div class="about-highlight">
+              <div class="number">12K+</div>
+              <div class="label">Happy Clients</div>
+            </div>
+            <div class="about-highlight">
+              <div class="number">50+</div>
+              <div class="label">Signature Dishes</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SERVICES ====== -->
+  <section class="services" id="services">
+    <div class="container text-center">
+      <span class="section-label">What We Offer</span>
+      <h2 class="section-title">Our <span>Services</span></h2>
+      <hr class="gold-divider center">
+      <p class="section-subtitle center">
+        From intimate private dinners to large-scale events, we tailor every experience to perfection.
+      </p>
+
+      <div class="services-grid">
+        <div class="service-card reveal delay-1" id="service-catering">
+          <div class="service-icon">🍽️</div>
+          <h3>Event Catering</h3>
+          <p>Full-service catering for weddings, corporate events, and private celebrations with customized menus.</p>
+        </div>
+        <div class="service-card reveal delay-2" id="service-chef">
+          <div class="service-icon">👨‍🍳</div>
+          <h3>Personal Chef</h3>
+          <p>Hire a dedicated chef for an intimate, at-home dining experience crafted around your tastes.</p>
+        </div>
+        <div class="service-card reveal delay-3" id="service-menu">
+          <div class="service-icon">📋</div>
+          <h3>Custom Menus</h3>
+          <p>We design bespoke menus that reflect your vision, dietary needs, and culinary preferences.</p>
+        </div>
+        <div class="service-card reveal delay-4" id="service-truck">
+          <div class="service-icon">🚚</div>
+          <h3>Food Truck</h3>
+          <p>Bring the J.E. Creations experience on wheels — festivals, pop-ups, and street food done right.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FOOD GALLERY ====== -->
+  <section class="gallery" id="gallery">
+    <div class="container text-center">
+      <span class="section-label">Our Creations</span>
+      <h2 class="section-title">Featured <span>Dishes</span></h2>
+      <hr class="gold-divider center">
+      <p class="section-subtitle center">
+        Every plate is a masterpiece — crafted with premium ingredients and presented with artistry.
+      </p>
+
+      <div class="gallery-grid">
+        <div class="gallery-item reveal delay-1">
+          <img src="images/dish-1.png" alt="Filet Mignon with gold leaf" loading="lazy">
+          <div class="gallery-overlay"><span>Filet Mignon Royale</span></div>
+        </div>
+        <div class="gallery-item reveal delay-2">
+          <img src="images/dish-2.png" alt="Grilled Salmon" loading="lazy">
+          <div class="gallery-overlay"><span>Citrus Glazed Salmon</span></div>
+        </div>
+        <div class="gallery-item reveal delay-3">
+          <img src="images/dish-3.png" alt="Chocolate Soufflé" loading="lazy">
+          <div class="gallery-overlay"><span>Chocolate Soufflé</span></div>
+        </div>
+        <div class="gallery-item reveal delay-1">
+          <img src="images/dish-4.png" alt="Premium Lamb Chops" loading="lazy">
+          <div class="gallery-overlay"><span>Herb-Crusted Lamb</span></div>
+        </div>
+        <div class="gallery-item reveal delay-2">
+          <img src="images/dish-5.png" alt="Lobster Tail" loading="lazy">
+          <div class="gallery-overlay"><span>Butter-Poached Lobster</span></div>
+        </div>
+      </div>
+
+      <div class="gallery-cta reveal">
+        <a href="#" class="btn btn-gold" id="gallery-menu-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3h18v18H3zM3 9h18M9 21V9"></path></svg>
+          View Full Menu
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== WHY CHOOSE US ====== -->
+  <section class="why-us" id="why-us">
+    <div class="container text-center">
+      <span class="section-label">The J.E. Difference</span>
+      <h2 class="section-title">Why Choose <span>Us</span></h2>
+      <hr class="gold-divider center">
+      <p class="section-subtitle center">
+        We don't just cook — we craft experiences that elevate every occasion.
+      </p>
+
+      <div class="why-grid">
+        <div class="why-card reveal delay-1" id="why-ingredients">
+          <div class="why-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#C41E24" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          </div>
+          <h3>Premium Ingredients</h3>
+          <p>Only the finest, freshest, locally-sourced ingredients make it into our kitchen.</p>
+        </div>
+        <div class="why-card reveal delay-2" id="why-custom">
+          <div class="why-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#C41E24" stroke-width="1.8"><circle cx="12" cy="12" r="10"></circle><path d="M8 14s1.5 2 4 2 4-2 4-2"></path><line x1="9" y1="9" x2="9.01" y2="9"></line><line x1="15" y1="9" x2="15.01" y2="9"></line></svg>
+          </div>
+          <h3>Custom Experience</h3>
+          <p>Every event is personalized to match your vision, theme, and culinary desires.</p>
+        </div>
+        <div class="why-card reveal delay-3" id="why-service">
+          <div class="why-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#C41E24" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+          </div>
+          <h3>Professional Service</h3>
+          <p>Our team delivers with precision, warmth, and the highest standards of hospitality.</p>
+        </div>
+        <div class="why-card reveal delay-4" id="why-flavor">
+          <div class="why-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#C41E24" stroke-width="1.8"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </div>
+          <h3>Unique Flavor</h3>
+          <p>Bold, creative, and unforgettable — our signature flavors are unlike anything else.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SEASONING LINE ====== -->
+  <section class="seasoning" id="seasoning">
+    <div class="container">
+      <div class="seasoning-grid">
+        <div class="seasoning-image reveal-left">
+          <img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=700&h=500&fit=crop" alt="J.E. Creations Signature Seasonings">
+        </div>
+        <div class="seasoning-text reveal-right">
+          <span class="section-label">Signature Collection</span>
+          <h2 class="section-title">Our <span>Seasoning</span> Line</h2>
+          <hr class="gold-divider">
+          <h3>Bring the J.E. Creations flavor home.</h3>
+          <p>
+            Our hand-crafted seasoning blends capture the bold, complex flavors that make our dishes legendary. Made with premium spices, no fillers, and packed with love — every jar is a masterpiece.
+          </p>
+          <div class="seasoning-features">
+            <div class="seasoning-feature">
+              <span class="check">✓</span> All-Natural, No Preservatives
+            </div>
+            <div class="seasoning-feature">
+              <span class="check">✓</span> Hand-Blended in Small Batches
+            </div>
+            <div class="seasoning-feature">
+              <span class="check">✓</span> Perfect for Grills, Ovens & Stovetops
+            </div>
+          </div>
+          <a href="#" class="btn btn-primary" id="shop-seasoning-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+            Shop Seasonings
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== APPAREL ====== -->
+  <section class="apparel" id="apparel">
+    <div class="container">
+      <div class="apparel-grid">
+        <div class="apparel-text reveal-left">
+          <span class="section-label">Wear The Brand</span>
+          <h2 class="section-title">J.E. Creations <span>Apparel</span></h2>
+          <hr class="gold-divider">
+          <p>
+            Rep the culture. Our exclusive streetwear line blends culinary passion with urban style. Premium quality hoodies, tees, and accessories designed for the food-loving community.
+          </p>
+          <p>
+            Limited drops. Bold designs. Built for those who eat, live, and breathe great food.
+          </p>
+          <a href="#" class="btn btn-gold" id="shop-apparel-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+            Shop Apparel
+          </a>
+        </div>
+        <div class="apparel-image reveal-right">
+          <div class="apparel-badge">New Drop</div>
+          <img src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=700&h=500&fit=crop" alt="J.E. Creations Apparel Collection">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== TESTIMONIALS ====== -->
+  <section class="testimonials" id="testimonials">
+    <div class="container text-center">
+      <span class="section-label">What People Say</span>
+      <h2 class="section-title">Client <span>Reviews</span></h2>
+      <hr class="gold-divider center">
+      <p class="section-subtitle center">
+        Don't take our word for it — hear from the people we've served.
+      </p>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal delay-1" id="testimonial-1">
+          <div class="quote-mark">"</div>
+          <div class="testimonial-stars">★ ★ ★ ★ ★</div>
+          <blockquote>
+            "J.E. Creations catered our wedding and it was absolutely incredible. Every single guest raved about the food. The lamb chops were out of this world!"
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">MT</div>
+            <div class="testimonial-info">
+              <strong>Marcus Thompson</strong>
+              <span>Wedding Reception</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal delay-2" id="testimonial-2">
+          <div class="quote-mark">"</div>
+          <div class="testimonial-stars">★ ★ ★ ★ ★</div>
+          <blockquote>
+            "We hired a personal chef for my husband's birthday. The presentation was 5-star restaurant quality and the flavors were unlike anything we've had. Truly exceptional."
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">SJ</div>
+            <div class="testimonial-info">
+              <strong>Samantha Johnson</strong>
+              <span>Private Dinner</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal delay-3" id="testimonial-3">
+          <div class="quote-mark">"</div>
+          <div class="testimonial-stars">★ ★ ★ ★ ★</div>
+          <blockquote>
+            "Their seasoning blends are now a staple in my kitchen. And the corporate event they catered for us? Flawless execution from start to finish. Highly recommend!"
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">DR</div>
+            <div class="testimonial-info">
+              <strong>David Rivera</strong>
+              <span>Corporate Event</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== BIG CTA ====== -->
+  <section class="big-cta" id="book">
+    <div class="container">
+      <div class="gold-line-decor"></div>
+      <span class="section-label" style="color: var(--gold-light);">Ready to Experience the Difference?</span>
+      <h2 class="section-title reveal" style="font-size: clamp(2.2rem, 5vw, 3.5rem);">
+        Book Your <span>Experience</span> Today
+      </h2>
+      <p class="section-subtitle center reveal" style="margin-bottom: 40px;">
+        Whether it's a private dinner, a grand event, or a food truck pop-up — let's create something unforgettable together.
+      </p>
+      <div class="big-cta-buttons reveal">
+        <a href="#" class="btn btn-primary" id="cta-book-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+          Book Now
+        </a>
+        <a href="#contact" class="btn btn-outline" id="cta-contact-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          Contact Us
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="images/logo.webp" alt="J.E. Creations">
+          <p>Where food meets creativity. Premium catering, personal chef services, signature seasonings, and branded apparel.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook" id="social-facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            </a>
+            <a href="#" aria-label="Instagram" id="social-instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </a>
+            <a href="#" aria-label="TikTok" id="social-tiktok">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1 0-5.78c.28 0 .56.04.81.13v-3.5a6.37 6.37 0 0 0-.81-.05A6.34 6.34 0 0 0 3.15 15.3 6.34 6.34 0 0 0 9.49 21.65a6.34 6.34 0 0 0 6.34-6.34V9.2a8.16 8.16 0 0 0 3.76.93V6.69z"></path></svg>
+            </a>
+            <a href="#" aria-label="YouTube" id="social-youtube">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19.1c1.72.44 8.6.44 8.6.44s6.88 0 8.6-.44a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="#1A1A1A"></polygon></svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h4>Quick Links</h4>
+          <div class="footer-links">
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Menu</a>
+            <a href="#seasoning">Seasoning</a>
+            <a href="#apparel">Apparel</a>
+          </div>
+        </div>
+
+        <div>
+          <h4>Services</h4>
+          <div class="footer-links">
+            <a href="#service-catering">Event Catering</a>
+            <a href="#service-chef">Personal Chef</a>
+            <a href="#service-menu">Custom Menus</a>
+            <a href="#service-truck">Food Truck</a>
+          </div>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Get In Touch</h4>
+          <div class="contact-item">
+            <span class="contact-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            </span>
+            <span>Los Angeles, California</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            </span>
+            <span>(555) 123-4567</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </span>
+            <span>info@jecreations.com</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 J.E. Creations. All rights reserved.</span>
+        <span>Designed with ❤️ — <a href="#">Where Food Meets Creativity</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ====== JAVASCRIPT ====== -->
+  <script>
+    // — Header scroll effect
+    const header = document.getElementById('header');
+    const handleScroll = () => {
+      if (window.scrollY > 60) {
+        header.classList.remove('transparent');
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+        header.classList.add('transparent');
+      }
+    };
+    window.addEventListener('scroll', handleScroll, { passive: true });
+
+    // — Mobile menu toggle
+    const toggle = document.getElementById('mobile-toggle');
+    const navWrapper = document.getElementById('nav-wrapper');
+    const overlay = document.getElementById('mobile-overlay');
+
+    const closeMenu = () => {
+      toggle.classList.remove('active');
+      navWrapper.classList.remove('open');
+      overlay.classList.remove('active');
+      document.body.style.overflow = '';
+    };
+
+    toggle.addEventListener('click', () => {
+      const isOpen = navWrapper.classList.contains('open');
+      if (isOpen) {
+        closeMenu();
+      } else {
+        toggle.classList.add('active');
+        navWrapper.classList.add('open');
+        overlay.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
+    });
+
+    overlay.addEventListener('click', closeMenu);
+
+    // Close mobile menu on nav link click
+    document.querySelectorAll('.header-nav a').forEach(link => {
+      link.addEventListener('click', closeMenu);
+    });
+
+    // — Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          const offset = 80;
+          const top = target.getBoundingClientRect().top + window.scrollY - offset;
+          window.scrollTo({ top, behavior: 'smooth' });
+        }
+      });
+    });
+
+    // — Scroll reveal animations (Intersection Observer)
+    const revealElements = document.querySelectorAll('.reveal, .reveal-left, .reveal-right');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.15,
+      rootMargin: '0px 0px -40px 0px'
+    });
+
+    revealElements.forEach(el => revealObserver.observe(el));
+
+    // — Active nav highlighting
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.header-nav a');
+
+    const highlightNav = () => {
+      const scrollPos = window.scrollY + 120;
+      sections.forEach(section => {
+        const top = section.offsetTop;
+        const height = section.offsetHeight;
+        const id = section.getAttribute('id');
+        if (scrollPos >= top && scrollPos < top + height) {
+          navLinks.forEach(link => {
+            link.style.color = '';
+            if (link.getAttribute('href') === '#' + id) {
+              link.style.color = 'var(--red)';
+            }
+          });
+        }
+      });
+    };
+    window.addEventListener('scroll', highlightNav, { passive: true });
+
+    // — Counter animation for about highlights
+    const animateCounters = () => {
+      document.querySelectorAll('.about-highlight .number').forEach(counter => {
+        const target = counter.textContent;
+        const numericValue = parseInt(target.replace(/\D/g, ''));
+        const suffix = target.replace(/[\d]/g, '');
+        let current = 0;
+        const increment = Math.max(1, Math.floor(numericValue / 60));
+        const timer = setInterval(() => {
+          current += increment;
+          if (current >= numericValue) {
+            counter.textContent = target;
+            clearInterval(timer);
+          } else {
+            counter.textContent = current + suffix;
+          }
+        }, 30);
+      });
+    };
+
+    const aboutSection = document.querySelector('.about');
+    const counterObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          animateCounters();
+          counterObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.3 });
+    counterObserver.observe(aboutSection);
+  </script>
+
+</body>
+</html>
