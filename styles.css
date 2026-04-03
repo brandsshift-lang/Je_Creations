@@ -202,7 +202,7 @@ ul { list-style: none; }
   height: 100%;
 }
 .header-logo img {
-  height: 55px;
+  height: 100px;
   width: auto;
   transition: var(--transition-base);
 }
