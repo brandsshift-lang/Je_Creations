@@ -208,7 +208,7 @@ ul { list-style: none; }
   transition: var(--transition-base);
 }
 .header.scrolled .header-logo img {
-  height: 48px;
+  height: 100px;
 }
 .header-nav-wrapper {
   display: flex;
